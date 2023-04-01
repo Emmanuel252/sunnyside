@@ -1,0 +1,24 @@
+.branding span {
+  display: block;
+  justify-content: start;
+  text-align: center;
+  width: 7rem;
+  height: 2rem;
+}
+
+.branding span div {
+  width: 7rem;
+  height: 0.5rem;
+  background-color: rgb(201, 118, 17);
+  border-radius: 15px;
+  position: relative;
+  z-index: -100;
+  opacity: 0.3;
+  bottom: 8px;
+}
+.branding span a {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  color: hsl(212, 27%, 19%);
+  margin: auto;
+}

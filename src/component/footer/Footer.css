@@ -1,0 +1,52 @@
+.fin {
+  background-color: hsl(168, 34%, 41%);
+  height: 40%;
+  margin-top: -2rem;
+  margin-bottom: -2rem;
+}
+
+.allt {
+  width: 40%;
+  background-color: hsl(168, 34%, 41%);
+  margin: auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.allt h1 {
+  font-weight: 1000;
+  color: hsl(167, 40%, 24%);
+}
+
+.link {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  font-family: 'Barlow', serif;
+  color: hsl(167, 40%, 24%);
+  margin-bottom: 2rem;
+}
+
+.sociaux {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Barlow', serif;
+  color: hsl(167, 40%, 24%);
+  padding-left: 0;
+}
+
+.sociaux a {
+  padding-right: 1rem;
+}
+.allt ul li {
+  opacity: 0.7;
+}

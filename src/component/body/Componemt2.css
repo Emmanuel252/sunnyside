@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Fraunces:opsz,wght@9..144,500;9..144,900&display=swap');
+
+.seconde {
+  display: flex;
+  width: 100%;
+}
+
+.seconde div {
+  text-align: center;
+}
+.read {
+  position: absolute;
+  top: 18rem;
+  margin: 0rem 9rem;
+}
+.Photogrphy h1,
+.Photogrphy p {
+  color: hsl(198, 62%, 26%);
+}
+
+.Graphic h1,
+.Graphic p {
+  color: hsl(167, 40%, 24%);
+}
+.read h1 {
+  font-family: 'Fraunces', serif;
+}
+.read p {
+  font-family: 'Barlow', sans-serif;
+}
+
+.Graphic {
+  background-image: url('../img/image-graphic-design.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  flex: 1;
+  height: 80vh;
+}
+.Photogrphy {
+  background-image: url('../img/image-photography.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 80vh;
+  width: 50%;
+}

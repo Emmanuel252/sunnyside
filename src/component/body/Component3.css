@@ -1,0 +1,55 @@
+.difficulte {
+  margin: 6rem 0;
+}
+
+.picture {
+  max-width: 5rem;
+  max-height: 7rem;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  margin: 2rem auto;
+}
+
+.picture img {
+  width: 100%;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.point {
+  color: hsl(210, 4%, 67%);
+  text-align: center;
+  font-family: 'Fraunces', serif;
+  margin-bottom: 5rem;
+}
+
+.comment {
+  margin: auto;
+  width: 33.33%;
+  text-align: center;
+  display: block;
+}
+.discours {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.P_text {
+  font-family: 'Barlow', sans-serif;
+  color: hsl(232, 10%, 55%);
+  font-size: 18px;
+  margin: 3rem 5rem;
+}
+
+.P_name .nom {
+  font-family: 'Fraunces', serif;
+  color: hsl(212, 27%, 19%);
+  font-weight: 1000;
+}
+.P_name .post {
+  font-family: 'Barlow', sans-serif;
+  color: hsl(232, 10%, 55%);
+  font-size: 11px;
+}
